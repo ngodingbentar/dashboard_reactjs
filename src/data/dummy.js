@@ -44,6 +44,10 @@ export const gridOrderStatus = (props) => (
 );
 
 export const kanbanGrid = [
+  { headerText: 'Backlog',
+    keyField: 'Backlog',
+    allowToggle: true },
+
   { headerText: 'To Do',
     keyField: 'Open',
     allowToggle: true },
