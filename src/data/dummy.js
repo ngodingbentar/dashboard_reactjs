@@ -478,7 +478,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'ecommerce',
+        name: 'Dashboard',
         icon: <FiShoppingBag />,
       },
     ],
@@ -497,6 +497,10 @@ export const links = [
       },
       {
         name: 'customers',
+        icon: <RiContactsLine />,
+      },
+      {
+        name: 'posts',
         icon: <RiContactsLine />,
       },
     ],
@@ -871,6 +875,33 @@ export const userProfileData = [
     desc: 'To-do and Daily Tasks',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
+  },
+];
+
+export const postsGrid = [
+  {
+    field: 'id',
+    headerText: 'Post Id',
+    width: '30',
+    textAlign: 'Center',
+  },
+  {
+    field: 'userId',
+    headerText: 'user Id',
+    width: '30',
+    textAlign: 'Center',
+  },
+  {
+    field: 'title',
+    headerText: 'title',
+    width: '150',
+    editType: 'dropdownedit',
+    textAlign: 'Left',
+  },
+  { field: 'body',
+    headerText: 'body',
+    width: '150',
+    textAlign: 'Left',
   },
 ];
 
