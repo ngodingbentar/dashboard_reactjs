@@ -881,7 +881,7 @@ export const userProfileData = [
 export const postsGrid = [
   {
     field: 'id',
-    headerText: 'Post Id',
+    headerText: 'Id',
     width: '30',
     textAlign: 'Center',
   },
