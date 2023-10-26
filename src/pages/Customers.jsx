@@ -8,7 +8,7 @@ const Customers = () => {
   const selectionsettings = { persistSelection: true };
   const toolbarOptions = ['Delete'];
   const editing = { allowDeleting: true, allowEditing: true };
-  const [users, setUsers] = useState([])
+  const [users, setUsers] = useState([]);
 
   const getUsers = async () => {
     fetch('https://jsonplaceholder.typicode.com/users')
@@ -24,7 +24,7 @@ const Customers = () => {
 
   const cek = () => {
     console.log('users', users);
-  }
+  };
 
   useEffect(() => {
     getUsers();
